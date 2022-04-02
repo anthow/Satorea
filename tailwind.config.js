@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         'primary-color':'#2f2e41',
         'secondary-color':'#FF9064',
-        'third-color':'4C4C4',
+        'third-color':'#679ca5',
       },
     },
     minHeight: {

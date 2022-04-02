@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Home() {
   return (
-    <article className=" min-h-screen py-10 md:py-0 md:min-h-9/10 flex flex-col m-auto bg-gray-200 ">
+    <article className=" min-h-screen py-10 md:py-0 md:min-h-9/10 flex flex-col m-auto  ">
    
     <section className="w-10/12 m-auto items-center flex flex-col gap-x-4 md:grid grid-cols-2">
       <div className="order-2 md:order-1">
