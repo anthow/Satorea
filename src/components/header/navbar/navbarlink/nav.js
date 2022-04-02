@@ -23,10 +23,10 @@ export default function Nav() {
             </button>
             <ul className="dropdown-menu absolute bg-white p-5 hidden space-y-4  text-gray-700 pt-">
             <Link to="/coaching">
-              <li className="w-max">Accompagnement individuel</li>
+              <li className="md:w-max">Accompagnement individuel</li>
               </Link>
               <Link to="/formations">
-              <li className="w-max"> Formation collective</li>
+              <li className="md:w-max"> Formation collective</li>
               </Link>
             </ul>
           </div>
