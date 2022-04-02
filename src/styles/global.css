@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dropdown:hover .dropdown-menu {
+    display: block
+}
+
+body{
+    font-family: Montserrat;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+}
