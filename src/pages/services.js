@@ -17,7 +17,7 @@ const ServicesPage = () => {
        formats={["auto", "webp", "avif"]}
        alt="A Gatsby astronaut"
        className="mb-5"
-     />
+     />     
    </figure>
      <div className="">
      <h2 className="text-3xl font-black mb-2 md:mb-5">Alt Title 2</h2>

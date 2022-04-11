@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+import Timeline from "../components/coachpage/timeline";
 
 const CoachingPage = () => {
   return (
@@ -30,7 +31,7 @@ const CoachingPage = () => {
         <h2 className=" text-2xl font-black mb-10">Alt title 2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <section className="py-10 text-center text-4xl font-black">
-          Ligne du temps
+          <Timeline />
         </section>
       </article>
       <article className="  py-10 flex flex-col m-auto b w-10/12  ">
@@ -154,41 +155,6 @@ const CoachingPage = () => {
           </div>
         </section>
         </article>
-        <article className="flex items-center flex-col md:flex-row gap-y-10 md:gap-x-10 py-20 md:justify-center ">
-            <figure className="">
-              <StaticImage
-                src="https://res.cloudinary.com/liono/image/upload/v1647082451/satoera/fake%20image/pexels-mateus-souza-3586798_knsqkt.jpg"
-                quality={95}
-                width={200}
-                height={200}
-                formats={["auto", "webp", "avif"]}
-                alt="A Gatsby astronaut"
-                className="mb-5 rounded-full"
-              />
-            </figure>
-             <figure className=" ">
-             <StaticImage
-               src="https://res.cloudinary.com/liono/image/upload/v1647077632/satoera/fake%20image/pexels-monstera-6238186_wk3vn2.jpg"
-               quality={95}
-               width={200}
-               height={200}
-               formats={["auto", "webp", "avif"]}
-               alt="A Gatsby astronaut"
-               className="mb-5 rounded-full"
-             />
-           </figure>
-            <figure className=" ">
-            <StaticImage
-              src="https://res.cloudinary.com/liono/image/upload/v1647079414/satoera/fake%20image/pexels-mikael-blomkvist-6476783_nxwivi.jpg"
-              quality={95}
-              width={200}
-              height={200}
-              formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              className="mb-5 rounded-full"
-            />
-          </figure>
-          </article>
     </Layout>
   );
 };

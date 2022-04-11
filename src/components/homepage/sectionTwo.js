@@ -4,8 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function SectionTwo() {
   return (
     <article className="w-12/12 py-10  flex">
-      <hr className="w-1/12 mt-5 divide-gray-300"></hr>
-      <section className="ml-2 w-10/12">
+      <section className="m-auto w-10/12">
         <h2 className=" text-3xl mb-10">title 2</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

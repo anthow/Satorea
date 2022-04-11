@@ -1,9 +1,9 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-export default function SectionFive() {
+export default function SectionZero() {
   return (
-  <article className="flex flex-col md:flex-row gap-y-10 py-20  md:justify-center gap-x-20">
+  <article className="flex flex-col md:flex-row gap-y-10 pt-10  md:justify-center gap-x-20">
             <figure className="mx-auto ">
               <StaticImage
                 src="https://res.cloudinary.com/liono/image/upload/v1647082451/satoera/fake%20image/pexels-mateus-souza-3586798_knsqkt.jpg"

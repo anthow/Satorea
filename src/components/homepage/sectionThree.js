@@ -7,8 +7,7 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 export default function SectionThree() {
   return (
     <article className="w-12/12 py-0 pb-10 md:pb-0 md:py-10 md:my-10 flex">
-      <hr className="w-1/12 mt-5 divide-gray-300"></hr>
-      <section className="ml-2 w-10/12">
+      <section className="m-auto w-10/12">
         <h2 className=" text-3xl mb-10">title 2</h2>
         <p className="mb-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +33,7 @@ export default function SectionThree() {
               maecenas volutpat.
             </p>
             <Link to="/">
-              <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-sm">
+              <button className="py-4 px-6 text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
                 Button Md
               </button>
               <p className="mt-5 flex items-center gap-x-2">
@@ -58,7 +57,7 @@ export default function SectionThree() {
               maecenas volutpat.
             </p>
             <Link to="/">
-              <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-sm">
+              <button className="py-4 px-6 text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
                 Button Md
               </button>
               <p className="mt-5 flex items-center gap-x-2">

@@ -5,8 +5,7 @@ export default function SectionFour() {
   return (
     <div className=" md:min-h-9/10 py-10 ">
       <article className="w-12/12  flex">
-        <hr className="w-1/12 mt-5 divide-gray-300"></hr>
-        <section className="ml-2 w-10/12">
+        <section className="m-auto w-10/12">
           <h2 className=" text-3xl mb-10">title 2</h2>
           <p className="mb-20">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

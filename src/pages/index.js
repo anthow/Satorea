@@ -4,7 +4,6 @@ import Home from "../components/homepage/home";
 import SectionTwo from "../components/homepage/sectionTwo";
 import SectionThree from "../components/homepage/sectionThree";
 import SectionFour from "../components/homepage/sectionFour";
-import SectionFive from "../components/homepage/sectionFive";
 
 const IndexPage = () => {
   return (
@@ -13,7 +12,6 @@ const IndexPage = () => {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
-      <SectionFive />
     </Layout>
   );
 };

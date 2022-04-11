@@ -8,9 +8,17 @@
 }
 
 body{
-    font-family: Montserrat;
+    color:#888888;    
+    font-family: "Montserrat";
+
+    
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Montserrat";
+    color: #333333;
+}
+
+div.timeline{
+    left: 50% !important;
 }

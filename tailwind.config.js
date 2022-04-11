@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-color':'#2f2e41',
+        'primary-color':'#888888',
         'secondary-color':'#FF9064',
-        'third-color':'#679ca5',
+        'third-color':'#333333',
+        'fourth-color': '#FFDEC7'
       },
     },
     minHeight: {
