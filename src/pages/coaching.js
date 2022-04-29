@@ -5,83 +5,17 @@ import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import Timeline from "../components/coachpage/timeline";
+import Header from "../components/coachpage/header";
+import Offre from "../components/coachpage/offre";
 
 const CoachingPage = () => {
   return (
+    <>
+
     <Layout>
-      <article className="  py-10 flex flex-col m-auto b w-10/12  ">
-        <figure className="m-auto ">
-          <StaticImage
-            src="https://res.cloudinary.com/liono/image/upload/v1638519084/pexels-johannes-plenio-1125776_azbvag.jpg"
-            quality={95}
-            height={1200}
-            width={3000}
-            formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
-            className="mb-5"
-          />
-        </figure>
-        <section className=" pt-10 flex mb-10 gap-x-10">
-          <h2 className=" text-2xl font-black">Alt title 2</h2>
-          <h1 className="text-2xl">Title 1</h1>
-        </section>
-        <p>paragraph Lg</p>
-      </article>
-      <article className="  py-10 md:py-0 flex flex-col m-auto b w-10/12  ">
-        <h2 className=" text-2xl font-black mb-10">Alt title 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <section className="py-10 text-center text-4xl font-black">
+      <Header />
           <Timeline />
-        </section>
-      </article>
-      <article className="  py-10 flex flex-col m-auto b w-10/12  ">
-        <h2 className=" text-2xl font-black mb-10">Alt title 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <section className="py-10 gap-y-10 flex flex-col md:grid grid-cols-3 w-10/12 m-auto ">
-          <div className="bg-primary-color py-5 px-10 flex flex-col  bg-gray-200">
-          <figure className="  ">
-            <StaticImage
-              src="https://res.cloudinary.com/liono/image/upload/v1647077632/satoera/fake%20image/pexels-monstera-6238186_wk3vn2.jpg"
-              quality={95}
-              formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              className="mb-5"
-            />
-          </figure>
-          <h3 className="text-xl mb-5">Consultant</h3>
-            <p className="font-black mb-10"> 300 €/mois</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
-          <div className="bg-secondary-color  py-5 px-10 flex flex-col bg-gray-300">
-          <figure className="  ">
-            <StaticImage
-              src="https://res.cloudinary.com/liono/image/upload/v1647077632/satoera/fake%20image/pexels-monstera-6238186_wk3vn2.jpg"
-              quality={95}
-              formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              className="mb-5"
-            />
-          </figure>
-          <h3 className="text-xl mb-5">Title 3</h3>
-            <p className="font-black mb-10"> 450 €/mois</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
-          <div className="bg-third-color py-5 px-10 flex flex-col bg-gray-400">
-          <figure className="  ">
-            <StaticImage
-              src="https://res.cloudinary.com/liono/image/upload/v1647077632/satoera/fake%20image/pexels-monstera-6238186_wk3vn2.jpg"
-              quality={95}
-              formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              className="mb-5"
-            />
-          </figure>
-          <h3 className="text-xl mb-5">Title 3</h3>
-            <p className="font-black mb-10"> Alt 6</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
-        </section>
-      </article>
+     <Offre />
       <article className="  py-10 flex flex-col gap-y-5 m-auto b w-10/12  ">
       <h2 className=" text-2xl font-black "> title 2</h2>
       <p>Contactons-nous dolor sit amet, consectetur adipiscing elit. </p>
@@ -156,6 +90,7 @@ const CoachingPage = () => {
         </section>
         </article>
     </Layout>
+    </>
   );
 };
 
