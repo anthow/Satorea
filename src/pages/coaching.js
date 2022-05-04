@@ -7,6 +7,7 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import Timeline from "../components/coachpage/timeline";
 import Header from "../components/coachpage/header";
 import Offre from "../components/coachpage/offre";
+import Groupe from "../components/footer/groupe";
 
 const CoachingPage = () => {
   return (
@@ -89,6 +90,7 @@ const CoachingPage = () => {
           </div>
         </section>
         </article>
+        <Groupe />
     </Layout>
     </>
   );

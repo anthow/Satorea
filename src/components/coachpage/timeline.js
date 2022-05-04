@@ -25,10 +25,10 @@ const Timeline = () => {
           ></div>
 
           {/* left timeline */}
-          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
+          <div class="mb-8 flex   justify-between flex-row-reverse items-center w-full left-timeline">
+            <div class="order-1  w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl  w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -43,9 +43,9 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between items-center w-full right-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color  shadow-xl w-5/12 px-6 py-4">
               <div
-                className="text-sm font-medium  text-primary-color text-opacity-100"
+                className="text-sm font-medium   text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
                   __html:
                     data.datoCmsPageAccompagnementIndividuel
@@ -58,7 +58,7 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -73,7 +73,7 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between items-center w-full right-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -88,7 +88,7 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -103,7 +103,7 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between items-center w-full right-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -118,7 +118,7 @@ const Timeline = () => {
           <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-primary-color shadow-xl w-6 h-6 rounded-full"></div>
-            <div class="order-1 color  w-5/12 px-6 py-4">
+            <div class="order-1 color shadow-xl w-5/12 px-6 py-4">
               <div
                 className="text-sm font-medium  text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
