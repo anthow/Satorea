@@ -16,7 +16,7 @@ const Timeline = () => {
     }
   `);
   return (
-    <section className="py-10 text-center text-4xl font-black">
+    <section className="py-10 w-10/12 lg:w-8/12 m-auto text-center text-4xl font-black">
       <div class="container  mx-auto w-full h-full">
         <div class="relative wrap overflow-hidden p-10 h-full">
           <div

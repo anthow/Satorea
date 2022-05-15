@@ -34,7 +34,7 @@ const Offre = () => {
   `);
   return (
     <>
-      <article className="  py-10 flex flex-col  m-auto b w-10/12  ">
+      <article className=" w-10/12 lg:w-8/12   py-10 flex flex-col  m-auto b   ">
         <h2 className=" text-2xl   font-black ">
           {data.datoCmsPageAccompagnementIndividuel.titreIntroductionOffre}
         </h2>
@@ -46,7 +46,7 @@ const Offre = () => {
               data.datoCmsPageAccompagnementIndividuel.texteIntroductionOffre,
           }}
         />{" "}
-        <section className="py-10 gap-y-10 text-white flex flex-col md:grid grid-cols-3 w-10/12 m-auto ">
+        <section className="py-10 gap-y-10 text-white flex flex-col md:grid grid-cols-3 lg:w-10/12 m-auto ">
           <div className="bg-primary-color py-5 px-10 flex flex-col  bg-gray-200">
             <figure className="  ">
               <GatsbyImage

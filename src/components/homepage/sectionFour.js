@@ -50,7 +50,7 @@ const SectionFour = () => {
         </section>
       </article>
       <article className=" md:w-9/12 w-11/12  m-auto items-center justify-center">
-        <div className="  flex flex-col ">
+        <div className="  flex flex-col lg:grid grid-cols-2 ">
           <div className="flex  gap-x-10 mb-20">
             <figure className=" ">
               <GatsbyImage

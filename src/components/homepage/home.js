@@ -17,25 +17,30 @@ const Home = () => {
       }
     }
   `)
-  return  <article className=" min-h-screen py-10 md:py-0 md:min-h-9/10 flex flex-col m-auto  ">
+  return  <article className=" w-12/12 mb-10  flex flex-col m-auto  ">
    
-  <section className="w-10/12 m-auto items-center flex flex-col gap-x-4 md:grid grid-cols-2">
-    <div className="order-2  md:order-1">
-    <div className="text-6xl  md:w-8/12 font-black mb-2 flex flex-col items-center md:mb-5 break-normal"
+  <section className="w-10/12 md:w-12/12 m-auto  items-center flex flex-col gap-x-4 md:grid grid-cols-2">
+    <div className="order-2 m-auto lg:w-10/12   md:order-1">
+    <div className="lg:text-6xl text-4xl mt-10 lg:mt-0   md:w-12/12 titrehomepage mb-2 flex flex-col items-center  break-normal"
           dangerouslySetInnerHTML={{
             __html: data.datoCmsHomepage.titre
           }}
         />
+        <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651743197/satoera/Rectangle_18_tjpgie.png"
+        className="relative bottom-24  left-2/3 lg:left-96  " />
+  
     <h1 className="text-4xl mb-5 md:mb-10"> {data.datoCmsHomepage.sousTitreHeader}</h1>
     <div
-    className=""
+    className="lg:w-9/12"
           dangerouslySetInnerHTML={{
             __html: data.datoCmsHomepage.texteHeader
           }}
         />
     </div>
-  <figure className="m-auto order-1 md:order-2">
-  <GatsbyImage image={data.datoCmsHomepage.imageHeader.gatsbyImageData} alt={data.datoCmsHomepage.imageHeader.alt} />
+  <figure className="  order-1 md:order-2">
+  <GatsbyImage
+  className="w-full"
+  image={data.datoCmsHomepage.imageHeader.gatsbyImageData} alt={data.datoCmsHomepage.imageHeader.alt} />
   </figure>
   </section>
 </article>
