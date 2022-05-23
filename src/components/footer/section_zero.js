@@ -10,7 +10,7 @@ const SectionZero = () => {
           node {
             imageBadge {
               alt
-              gatsbyImageData(height: 170)
+              gatsbyImageData(height: 100)
 
             }
             urlBadge
@@ -19,13 +19,13 @@ const SectionZero = () => {
       }
     }
   `)
-  return<>   <article className="flex flex-col md:flex-row gap-y-10 pt-10  md:justify-center gap-x-20">
+  return<>   <article className="flex flex-col md:flex-row gap-y-10 pt-10 pb-5  md:justify-center gap-x-20">
 
 {   
     
     data.allDatoCmsFooterBadge.edges.map(({ node }) => {
 return(
-  <GatsbyImage image={node.imageBadge.gatsbyImageData} alt={node.imageBadge.alt}       className="mb-5 w-fit"
+  <GatsbyImage image={node.imageBadge.gatsbyImageData} alt={node.imageBadge.alt}       className="mb-5 w-max"
   ></GatsbyImage>
 )})}
 

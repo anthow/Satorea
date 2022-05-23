@@ -10,15 +10,18 @@ import Individuel from "../components/footer/individuel";
 const Formationdetail = ({ data }) => {
   return (
     <Layout>
-      <article className="  py-10 flex flex-col m-auto b w-10/12  ">
-        <figure className="m-auto ">
+      <div className="w-12/12 m-auto flex flex-col">
+        <figure className=" w-full ">
           <GatsbyImage
             image={
               data.datoCmsFormationCollective.imageFormation.gatsbyImageData
             }
+            className='w-full'
             alt={data.datoCmsFormationCollective.imageFormation.alt}
           />
         </figure>
+        <article className="  py-10 flex flex-col m-auto b w-10/12  ">
+
         <section className=" pt-10  mb-10 gap-x-10">
           <h2 className=" text-2xl font-black">
             {data.datoCmsFormationCollective.sousTitreFormation}
@@ -39,7 +42,7 @@ const Formationdetail = ({ data }) => {
           {data.datoCmsFormationCollective.titreInformationGenerale}
         </h2>
 
-        <ul className=" my-10 flex w-10/12 m-auto flex-col md:grid grid-cols-4 grid-row-2 gap-y-4 ">
+        <ul className=" my-10 flex w-10/12 m-auto flex-col md:grid grid-cols-4 grid-row-2 gap-y-4 gap-x-4 ">
           <li>Catégorie</li>
           <li>Durée</li>
           <li>Niveau</li>
@@ -186,7 +189,7 @@ const Formationdetail = ({ data }) => {
           </Link>
         </section>
       </article>
-
+      </div>
       <Individuel />
     </Layout>
   );

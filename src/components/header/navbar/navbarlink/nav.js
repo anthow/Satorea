@@ -31,7 +31,10 @@ export default function Nav() {
             </ul>
           </div>
         </li>
-        <li>contact</li>
+        <li> <a href="mailto:info@satorea.be"> 
+        <button classname="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+        info@satorea.be </button> </a></li>
+
       </ul>
     </header>
   );

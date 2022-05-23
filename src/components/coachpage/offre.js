@@ -46,8 +46,8 @@ const Offre = () => {
               data.datoCmsPageAccompagnementIndividuel.texteIntroductionOffre,
           }}
         />{" "}
-        <section className="py-10 gap-y-10 text-white flex flex-col md:grid grid-cols-3 lg:w-10/12 m-auto ">
-          <div className="bg-primary-color py-5 px-10 flex flex-col  bg-gray-200">
+        <section className="py-10 gap-y-10 flex flex-col md:grid grid-cols-3 lg:w-10/12 m-auto ">
+          <div className=" py-5 px-10 flex flex-col  ">
             <figure className="  ">
               <GatsbyImage
                 className="mb-5"
@@ -58,10 +58,10 @@ const Offre = () => {
                 alt={data.datoCmsPageAccompagnementIndividuel.imageOffre1.alt}
               />
             </figure>
-            <h3 className="text-xl text-white">
+            <h3 className="text-xl  ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre1}
             </h3>
-            <p className=" text-m text-white font-black mb-5">
+            <p className=" text-m   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre1}
         </p>
             <p className="font-black mb-10"> </p>
@@ -72,7 +72,7 @@ const Offre = () => {
               }}
             />
           </div>
-          <div className="bg-primary-color py-5 px-10 flex flex-col  bg-gray-400">
+          <div className=" py-5 px-10 flex flex-col ">
             <figure className="  ">
               <GatsbyImage
                 className="mb-5"
@@ -83,10 +83,10 @@ const Offre = () => {
                 alt={data.datoCmsPageAccompagnementIndividuel.imageOffre2.alt}
               />
             </figure>
-            <h3 className="text-xl text-white ">
+            <h3 className="text-xl   ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre2}
             </h3>
-            <p className=" text-m text-white font-black mb-5">
+            <p className=" text-m   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre2}
         </p>
             <p className="font-black mb-10"> </p>
@@ -97,7 +97,7 @@ const Offre = () => {
               }}
             />
           </div>
-          <div className="bg-primary-color py-5 px-10 flex flex-col  bg-gray-600">
+          <div className=" py-5 px-10 flex flex-col ">
             <figure className="  ">
               <GatsbyImage
                 className="mb-5"
@@ -110,10 +110,10 @@ const Offre = () => {
                 }
               />
             </figure>
-            <h3 className="text-xl text-white ">
+            <h3 className="text-xl   ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre3}
             </h3>
-            <p className=" text-m text-white font-black mb-5">
+            <p className=" text-m   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre3}
         </p>
             <p className="font-black mb-10"> </p>

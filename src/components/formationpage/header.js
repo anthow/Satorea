@@ -19,16 +19,17 @@ const Header = () => {
   `);
   return (
     <>
-      <article className="  py-10 flex flex-col m-auto b w-10/12  ">
-        <figure className="m-auto mb-5 ">
+      <article className="  py-10 flex flex-col  b w-full    ">
+        <figure className="m-auto mb-5 w-full ">
           <GatsbyImage
             image={
               data.datoCmsPageFormationCollective.imageHeader
                 .gatsbyImageData
-            }
+            } className="w-full"
             alt={data.datoCmsPageFormationCollective.imageHeader.alt}
           />
         </figure>
+        <div className="w-10/12 m-auto "> 
         <section className=" pt-10 flex flex-col mb-10 ">
           <h2 className=" text-2xl font-black">
             {data.datoCmsPageFormationCollective.sousTitreHeader}
@@ -43,7 +44,9 @@ const Header = () => {
             __html: data.datoCmsPageFormationCollective.texteHeader,
           }}
         />
+        </div>
       </article>
+      
      
     </>
   );
