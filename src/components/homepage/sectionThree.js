@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
+import Feedservice from "./feedservices";
 
 const SectionThree = () => {
   const data = useStaticQuery(graphql`
@@ -83,6 +84,7 @@ const SectionThree = () => {
 
       </figure>
     </div>
+    <Feedservice />
   </section>
 </article>
 }
