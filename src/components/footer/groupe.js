@@ -34,8 +34,8 @@ const Groupe = () => {
         </section>
         <section className="flex flex-col md:grid grid-cols-2 gap-x-20">
           <div className="flex flex-col gap-y-5">
-            <h3 className="text-5xl font-black">Construire sa présence de marque</h3>
-            <h4 className="text-3xl font-thin">sur Facebook et Instagram</h4>
+            <h3 className="text-3xl font-black">Construire sa présence de marque</h3>
+            <h4 className="text-xl font-thin">sur Facebook et Instagram</h4>
             <p>
               Tu souhaites accroître la visibilité de tes pages sur Facebook ou
               sur Instagram ? Dans cette formation, développe une stratégie sur

@@ -31,7 +31,7 @@ const Appel = () => {
           }}
         />
           </section>
-          <section className="flex flex-col md:grid grid-cols-2 md:pr-24 gap-y-10 gap-x-20">
+          <section className="flex flex-col w-10/12 m-auto md:grid grid-cols-2 md:pr-24 gap-y-10 gap-x-20">
           <GatsbyImage
                 className="mb-5"
                 image={
@@ -42,7 +42,7 @@ const Appel = () => {
               />
               <div className=" w-10/12 md:w-12/12 m-auto flex flex-col gap-y-5"> 
               <h3 className=" text-2xl font-black"> {data.datoCmsPageAccompagnementIndividuel.titreSousSectionBoutonDAppel} </h3>
-              <h3 className=" text-xl mb-5 "> {data.datoCmsPageAccompagnementIndividuel.sousTitreSectionBoutonDAppel} </h3>
+              <h3 className=" text-lg  "> {data.datoCmsPageAccompagnementIndividuel.sousTitreSectionBoutonDAppel} </h3>
               <div
           className=""
           dangerouslySetInnerHTML={{

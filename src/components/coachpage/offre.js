@@ -34,7 +34,7 @@ const Offre = () => {
   `);
   return (
     <>
-      <article className=" w-10/12 lg:w-8/12   py-10 flex flex-col  m-auto b   ">
+      <article className=" w-10/12   py-10 flex flex-col  m-auto b   ">
         <h2 className=" text-2xl   font-black ">
           {data.datoCmsPageAccompagnementIndividuel.titreIntroductionOffre}
         </h2>
@@ -46,7 +46,7 @@ const Offre = () => {
               data.datoCmsPageAccompagnementIndividuel.texteIntroductionOffre,
           }}
         />{" "}
-        <section className="py-10 gap-y-10 flex flex-col md:grid grid-cols-3 lg:w-10/12 m-auto ">
+        <section className="py-10 gap-y-10 flex flex-col md:grid grid-cols-3 lg:w-12/12 m-auto ">
           <div className=" py-5 px-10 flex flex-col  ">
             <figure className="  ">
               <GatsbyImage
@@ -61,10 +61,9 @@ const Offre = () => {
             <h3 className="text-xl  ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre1}
             </h3>
-            <p className=" text-m   font-black mb-5">
+            <p className=" text-sm   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre1}
         </p>
-            <p className="font-black mb-10"> </p>
             <div
               className=""
               dangerouslySetInnerHTML={{
@@ -86,10 +85,9 @@ const Offre = () => {
             <h3 className="text-xl   ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre2}
             </h3>
-            <p className=" text-m   font-black mb-5">
+            <p className=" text-sm   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre2}
         </p>
-            <p className="font-black mb-10"> </p>
             <div
               className=""
               dangerouslySetInnerHTML={{
@@ -113,10 +111,9 @@ const Offre = () => {
             <h3 className="text-xl   ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre3}
             </h3>
-            <p className=" text-m   font-black mb-5">
+            <p className=" text-sm   font-black mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre3}
         </p>
-            <p className="font-black mb-10"> </p>
             <div
               className=""
               dangerouslySetInnerHTML={{

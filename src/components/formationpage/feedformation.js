@@ -40,7 +40,7 @@ const Feedformation = () => (
     </figure>
     <div>
       <h3 className="text-2xl font-black mb-5">{node.sousTitreFormation}</h3>
-      <h4 className="italic text-xl mb-10">{node.titreFormation}</h4>
+      <h4 className=" text-xl mb-10">{node.titreFormation}</h4>
    <div
           className="mb-10 md:w-10/12"
           dangerouslySetInnerHTML={{
@@ -63,7 +63,7 @@ const Feedformation = () => (
   <section className="flex flex-col items-center md:grid grid-cols-2 gap-x-4">
   <div className="order-2 md:order-1">
     <h3 className="text-2xl font-black mb-5">{node.sousTitreFormation}</h3>
-    <h4 className="italic text-xl mb-10">{node.titreFormation}</h4>
+    <h4 className="text-xl mb-10">{node.titreFormation}</h4>
     <div
           className="mb-10 md:w-10/12"
           dangerouslySetInnerHTML={{

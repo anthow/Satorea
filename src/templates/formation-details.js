@@ -42,7 +42,7 @@ const Formationdetail = ({ data }) => {
           {data.datoCmsFormationCollective.titreInformationGenerale}
         </h2>
 
-        <ul className=" my-10 flex w-10/12 m-auto flex-col md:grid grid-cols-4 grid-row-2 gap-y-4 gap-x-4 ">
+        <ul className=" my-10 flex w-12/12 m-auto flex-col  md:grid grid-cols-4 grid-row-2 gap-y-4 gap-x-4 ">
           <li>Catégorie</li>
           <li>Durée</li>
           <li>Niveau</li>

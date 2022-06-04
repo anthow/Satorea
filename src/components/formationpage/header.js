@@ -19,7 +19,7 @@ const Header = () => {
   `);
   return (
     <>
-      <article className="  py-10 flex flex-col  b w-full    ">
+      <article className="  pb-10 flex flex-col  b w-full    ">
         <figure className="m-auto mb-5 w-full ">
           <GatsbyImage
             image={
