@@ -19,8 +19,8 @@ const Home = () => {
   `)
   return  <article className=" w-12/12 mb-10  flex flex-col m-auto  ">
    
-  <section className="w-10/12 md:w-12/12 m-auto  items-center flex flex-col gap-x-20 md:grid grid-cols-2">
-    <div className="order-2 m-auto lg:w-10/12   md:order-1">
+  <section className=" w-full m-auto  items-center flex flex-col md:grid grid-cols-2">
+    <div className="order-2 m-auto md:m-0 w-10/12 lg:w-8/12 self-start justify-self-center md:pt-20    md:order-1">
     <div className="lg:text-6xl text-4xl mt-10 lg:mt-0   md:w-12/12 titrehomepage mb-2 flex flex-col items-center  break-normal"
           dangerouslySetInnerHTML={{
             __html: data.datoCmsHomepage.titre
@@ -37,9 +37,9 @@ const Home = () => {
           }}
         />
     </div>
-  <figure className="  order-1 md:order-2">
+  <figure className=" md:justify-self-end   h-fit  order-1 md:order-2">
   <GatsbyImage
-  className="w-full"
+  className=""
   image={data.datoCmsHomepage.imageHeader.gatsbyImageData} alt={data.datoCmsHomepage.imageHeader.alt} />
   </figure>
   </section>

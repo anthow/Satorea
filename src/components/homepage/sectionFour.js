@@ -20,10 +20,17 @@ const SectionFour = () => {
         nomTemoignageDeux
         nomTemoignageQuatre
         nomTemoignageTrois
+        urlTemoignageUn
+        urlTemoignageTrois
+        urlTemoignageQuatre
+        urlTemoignageDeux
+        professionTemoignageDeux
+        professionTemoignageQuatre
+        professionTemoignageTrois
+        professionTemoignageUn
         portrait {
           alt
           gatsbyImageData(width: 150, height: 150)
-
         }
         portraitDeux {
           alt
@@ -64,14 +71,14 @@ const SectionFour = () => {
                 {data.datoCmsHomepage.titreTemoignageUn}
               </h4>
               <div
-                className="mb-2"
+                className="mb-5"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsHomepage.texteTemoignage,
                 }}
               />
-              <p className="text-xs italic"> {data.datoCmsHomepage.nomTemoignage}</p>
-           
-           
+              <div className="text-xs flex italic">
+                <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} target="_blank" rel="noreferrer"> {data.datoCmsHomepage.nomTemoignage}</a><p>{data.datoCmsHomepage.professionTemoignageUn} </p>
+              </div>
             </div>
           </div>
           <div className="flex  gap-x-10 mb-20">
@@ -92,10 +99,10 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignageDeux,
                 }}
               />
-              <p className="text-xs italic"> 
-              {data.datoCmsHomepage.nomTemoignageDeux}</p>
-           
-           
+              <div className="text-xs flex italic">
+              <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
+              target="_blank" rel="noreferrer"> {data.datoCmsHomepage.nomTemoignageDeux}</a><p>{data.datoCmsHomepage.professionTemoignageDeux} </p>
+              </div>
             </div>
           </div>
           <div className="flex  gap-x-10 mb-20">
@@ -113,13 +120,13 @@ const SectionFour = () => {
               <div
                 className="mb-2"
                 dangerouslySetInnerHTML={{
-                  __html: data.datoCmsHomepage.texteTemoignageTrois
+                  __html: data.datoCmsHomepage.texteTemoignageTrois,
                 }}
               />
-              <p className="text-xs italic"> 
-              {data.datoCmsHomepage.nomTemoignageTrois}</p>
-           
-           
+                <div className="text-xs flex italic">
+              <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageTrois} 
+              target="_blank" rel="noreferrer" > {data.datoCmsHomepage.nomTemoignageTrois}</a><p>{data.datoCmsHomepage.professionTemoignageTrois} </p>
+              </div>
             </div>
           </div>
         </div>

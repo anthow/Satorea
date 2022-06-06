@@ -50,7 +50,7 @@ const Appel = () => {
               data.datoCmsPageAccompagnementIndividuel.texteSousSectionBoutonDAppel,
           }}
         /><a href="mailto:info@satorea.be"> 
-        <button className="p-2  rounded-xl text-white w-max font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+        <button className="p-2  rounded-xl text-white w-max font-black bg-secondary-color hover:bg-fourth-color ">
             Me contacter
           </button></a>
               </div>

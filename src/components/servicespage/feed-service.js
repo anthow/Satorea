@@ -34,15 +34,15 @@ const Feedservice = () => {
           <>
             <h3 className="text-2xl font-black mb-5">{node.nomDuService}</h3>
 
-            <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-4">
-              <figure className=" order-1   ">
+            <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
+              <figure className=" order-1  md:order-2  ">
                 <GatsbyImage
                   image={node.imageSectionUnPageServices.gatsbyImageData}
                   alt={node.imageSectionUnPageServices.alt}
                   className="w-full"
                 />
               </figure>
-              <div className="order-2 ">
+              <div className="order-2 md:order-1 ">
                 <div
                   className="mb-10 md:w-10/12"
                   dangerouslySetInnerHTML={{
@@ -52,15 +52,15 @@ const Feedservice = () => {
               </div>
             </section>
 
-            <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-4">
-              <figure className=" order-1 md:order-2">
+            <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
+              <figure className=" order-1 ">
                 <GatsbyImage
                   image={node.imageSectionDeuxPageServices.gatsbyImageData}
                   alt={node.imageSectionDeuxPageServices.alt}
                   className="w-full"
                 />
               </figure>
-              <div className="flex flex-col order-2 md:order-1">
+              <div className="flex flex-col order-2 ">
                 <h2 className="text-2xl font-black mb-5">
                   {node.titreSectionDeuxPageService}
                 </h2>
@@ -71,7 +71,7 @@ const Feedservice = () => {
                   }}
                 />
                 <Link to="#">
-                  <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+                  <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
                     Contact{" "}
                   </button>
                 </Link>

@@ -22,14 +22,14 @@ const Sectiontwo = () => {
           <li>
             {" "}
             <FontAwesomeIcon
-              className="text-white hover:text-fourth-color text-lg"
+              className="text-white hover:text-secondary-color text-lg"
               icon={faEnvelope}
               size="1x"
             />
           </li>
           <li>
             <FontAwesomeIcon
-              className="text-white hover:text-fourth-color text-lg"
+              className="text-white hover:text-secondary-color text-lg"
               icon={faFacebook}
               size="1x"
             />
@@ -37,7 +37,7 @@ const Sectiontwo = () => {
           <li>
             {" "}
             <FontAwesomeIcon
-              className="text-white hover:text-fourth-color text-lg"
+              className="text-white hover:text-secondary-color text-lg"
               icon={faInstagram}
               size="1x"
             />
@@ -45,7 +45,7 @@ const Sectiontwo = () => {
           <li>
             {" "}
             <FontAwesomeIcon
-              className="text-white hover:text-fourth-color text-lg"
+              className="text-white hover:text-secondary-color text-lg"
               icon={faLinkedin}
               size="1x"
             />

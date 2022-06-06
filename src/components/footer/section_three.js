@@ -8,7 +8,6 @@ const Sectionthree = () => {
         <li>Accueil</li>
         <li>Ateliers collectifs</li>
         <li>Besoin d'un suivi ?</li>
-        <li>Blog</li>
       </ul>
     </article>
   );

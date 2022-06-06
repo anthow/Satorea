@@ -10,8 +10,8 @@ import Individuel from "../components/footer/individuel";
 const Formationdetail = ({ data }) => {
   return (
     <Layout>
-      <div className="w-12/12 m-auto flex flex-col">
-        <figure className=" w-full ">
+      <div className="pb-10 flex flex-col m-auto  w-12/12">
+        <figure className=" w-full h-1/3 m-auto mb-5 ">
           <GatsbyImage
             image={
               data.datoCmsFormationCollective.imageFormation.gatsbyImageData
@@ -43,14 +43,14 @@ const Formationdetail = ({ data }) => {
         </h2>
 
         <ul className=" my-10 flex w-12/12 m-auto flex-col  md:grid grid-cols-4 grid-row-2 gap-y-4 gap-x-4 ">
-          <li>Catégorie</li>
-          <li>Durée</li>
-          <li>Niveau</li>
-          <li>Prix</li>
-          <li>{data.datoCmsFormationCollective.categories}</li>
-          <li>{data.datoCmsFormationCollective.duree}</li>
-          <li>{data.datoCmsFormationCollective.niveau}</li>
-          <li>{data.datoCmsFormationCollective.prix}</li>
+          <li className="font-black self-center text-lg m-auto">Catégorie</li>
+          <li className="font-black text-lg m-auto ">Durée</li>
+          <li className="font-black text-lg m-auto">Niveau</li>
+          <li className="font-black text-lg m-auto" >Prix</li>
+          <li className="text-sm text-center m-auto">{data.datoCmsFormationCollective.categories}</li>
+          <li className="text-sm m-auto">{data.datoCmsFormationCollective.duree}</li>
+          <li className="text-sm m-auto">{data.datoCmsFormationCollective.niveau}</li>
+          <li className="text-sm m-auto">{data.datoCmsFormationCollective.prix}</li>
         </ul>
         <section className=" flex flex-col md:grid grid-cols-2 gap-x-10 my-10">
           <div
@@ -79,7 +79,7 @@ const Formationdetail = ({ data }) => {
         />
       </article>
       <article className="py-10 flex flex-col w-10/12 gap-y-10 m-auto">
-        <h3>{data.datoCmsFormationCollective.titreObjectif}</h3>
+        <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titreObjectif}</h3>
         <div
           className=""
           dangerouslySetInnerHTML={{
@@ -88,7 +88,7 @@ const Formationdetail = ({ data }) => {
         />
         <article className="py-10 flex flex-col  gap-y-20 m-auto  ">
           <section>
-            <h3>{data.datoCmsFormationCollective.titrePrograme}</h3>
+            <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePrograme}</h3>
             <div
               className=""
               dangerouslySetInnerHTML={{
@@ -104,8 +104,8 @@ const Formationdetail = ({ data }) => {
                 }
                 alt={data.datoCmsFormationCollective.imagePartieUn.alt}
               />
-              <div className="flex flex-col gap-y-2">
-                <h3>{data.datoCmsFormationCollective.titrePartieUn}</h3>
+              <div className="flex flex-col gap-y-5">
+                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieUn}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieUn}</h4>
               </div>
               <div
@@ -123,8 +123,8 @@ const Formationdetail = ({ data }) => {
                 }
                 alt={data.datoCmsFormationCollective.imagePartieDeux.alt}
               />
-              <div className="flex flex-col gap-y-2">
-                <h3>{data.datoCmsFormationCollective.titrePartieDeux}</h3>
+              <div className="flex flex-col gap-y-5">
+                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieDeux}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieDeux}</h4>
               </div>
               <div
@@ -142,8 +142,8 @@ const Formationdetail = ({ data }) => {
                 }
                 alt={data.datoCmsFormationCollective.imagePartieTrois.alt}
               />
-              <div className="flex flex-col gap-y-2">
-                <h3>{data.datoCmsFormationCollective.titrePartieTrois}</h3>
+              <div className="flex flex-col gap-y-5">
+                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieTrois}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieTrois}</h4>
               </div>
               <div
@@ -157,14 +157,16 @@ const Formationdetail = ({ data }) => {
         </article>
       </article>
       <article className="py-10 mb-10 w-10/12 m-auto gap-y-10 flex flex-col">
-        <h3> {data.datoCmsFormationCollective.titreOutils}</h3>
+        <h3 className="text-2xl font-black"> {data.datoCmsFormationCollective.titreOutils}</h3>
         <section className="w-10/12 m-auto flex gap-x-4">
         {data.datoCmsFormationCollective.imagesOutils.map(pic => 
-
 <figure className="md:w-12/12 w-1/2 m-auto mb-8 md:m-0 self-center ">
-<GatsbyImage image={pic.gatsbyImageData} className="  "  />
-</figure>
+<a href={pic.customData.url} target="_blank" rel="noreferrer">
 
+<GatsbyImage image={pic.gatsbyImageData} className="  "  />
+</a>
+
+</figure>
 )}
         </section>
       </article>
@@ -183,7 +185,7 @@ const Formationdetail = ({ data }) => {
         <section className="justify-self-center text-center">
           <h2 className=" mb-10 text-2xl gr font-black">Tu y participes ?</h2>
           <Link to="/">
-            <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-sm">
+            <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-xl">
               En savoir plus
             </button>
           </Link>
@@ -228,7 +230,7 @@ export const query = graphql`
       titrePrograme
       imageFormation {
         alt
-        gatsbyImageData
+        gatsbyImageData(height: 800, width: 3000)
       }
       imageInformationGNRale {
         alt
@@ -249,6 +251,7 @@ export const query = graphql`
       imagesOutils {
         alt
         gatsbyImageData
+        customData
       }
     }
   }

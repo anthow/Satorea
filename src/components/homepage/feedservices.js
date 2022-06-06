@@ -39,7 +39,7 @@ const Feedservice = () => {
           }}      
         />
         <Link to="/formations">
-        <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+        <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
             En savoir plus
           </button>
         </Link>
@@ -72,7 +72,7 @@ const Feedservice = () => {
           }}
         />
         <Link to="/coaching">
-          <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+          <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
             En savoir plus
           </button>
   

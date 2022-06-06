@@ -48,7 +48,7 @@ const Feedformation = () => (
           }}
         />
       <Link to={node.slug}>
-        <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+        <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
           En savoir plus
         </button>
       </Link>
@@ -71,7 +71,7 @@ const Feedformation = () => (
           }}
         />
       <Link to={node.slug}>
-      <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm">
+      <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
         En savoir plus
       </button>
    

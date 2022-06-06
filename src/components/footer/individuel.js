@@ -18,7 +18,7 @@ const Individuel = () => {
         </p>
         </section>
         <Link to="../../coaching">
-        <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-sm      ">
+        <button className="text-secondary-color   underline   ">
         Vers le Coaching individuel
                 </button>
       </Link>
