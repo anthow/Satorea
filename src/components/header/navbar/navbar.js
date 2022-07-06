@@ -2,7 +2,7 @@ import  { useState } from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
 import Nav from "./navbarlink/nav";
 import Rs from "./navbarlink/rs";import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Navbar = () => {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
       datoCmsGeneral {
         logo {
           alt
-          gatsbyImageData(width: 100)
+          gatsbyImageData(width: 70)
         }
       }
     }
@@ -19,10 +19,11 @@ const Navbar = () => {
   return  <>
   <nav className=" w-10/12 m-auto flex justify-between items-center">
     <article className="flex gap-x-10 items-center">
+      <Link to="/">
       <figure>
         <GatsbyImage image={data.datoCmsGeneral.logo.gatsbyImageData} alt={data.datoCmsGeneral.logo.alt} />
         
-      </figure>
+      </figure></Link>
     </article>
     <article className="hidden md:block">
       <Nav className="" />

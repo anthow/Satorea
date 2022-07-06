@@ -8,8 +8,8 @@ export default function Nav() {
           <li>Accueil</li>
         </Link>
         <li>
-          <div className="dropdown inline-block relative">
-            <button className=" f rounded flex md:inline-flex items-center">
+          <div className="dropdown inline-block ">
+            <button className="  rounded flex md:inline-flex items-center">
               <Link to="/services">
                 <p>Services</p>
               </Link>
@@ -21,7 +21,7 @@ export default function Nav() {
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
               </svg>
             </button>
-            <ul className="dropdown-menu absolute bg-white p-5 hidden space-y-4  text-gray-700 pt-">
+            <ul className="dropdown-menu  bg-white p-5 hidden space-y-4  text-gray-700 pt-">
             <Link to="/coaching">
               <li className="md:w-max">Accompagnement individuel</li>
               </Link>
