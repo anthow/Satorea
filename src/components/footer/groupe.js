@@ -23,7 +23,7 @@ const Groupe = () => {
     <>
       <article className="  py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
         <section>
-        <h2 className=" text-2xl   font-black ">
+        <h2 className=" text-2xl  mb-10 font-black ">
           Tu préfère travailler en groupe ?
         </h2>
         <p>

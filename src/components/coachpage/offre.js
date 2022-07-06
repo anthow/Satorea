@@ -35,7 +35,7 @@ const Offre = () => {
   return (
     <>
       <article className=" w-10/12   py-10 flex flex-col  m-auto b   ">
-        <h2 className=" text-2xl   font-black ">
+        <h2 className=" text-2xl mb-10  font-black ">
           {data.datoCmsPageAccompagnementIndividuel.titreIntroductionOffre}
         </h2>
       

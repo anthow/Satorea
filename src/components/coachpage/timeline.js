@@ -30,7 +30,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-sm"></h1>
                 </div>
-                <div class="order-1 color shadow-xl bg-white rounded-xl z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div class="order-1 color shadow-xl bg-white rounded-full z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium z-20 text-primary-color text-opacity-100  "
                 dangerouslySetInnerHTML={{
@@ -49,7 +49,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto font-semibold text-lg text-white"></h1>
                 </div>
-                <div class="order-1 text-primary-color bg-white  z-20 rounded-xl shadow-xl md:w-5/12 px-6 py-4">
+                <div class="order-1 text-primary-color bg-white  z-20 rounded-full shadow-xl md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium   text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -66,7 +66,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-lg"></h1>
                 </div>
-                <div class="order-1 color shadow-xl bg-white rounded-xl z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div class="order-1 color shadow-xl bg-white rounded-full z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium z-20 text-primary-color text-opacity-100  "
                 dangerouslySetInnerHTML={{
@@ -85,7 +85,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto font-semibold text-lg text-white"></h1>
                 </div>
-                <div class="order-1 text-primary-color bg-white  z-20 rounded-xl shadow-xl md:w-5/12 px-6 py-4">
+                <div class="order-1 text-primary-color bg-white  z-20 rounded-full shadow-xl md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium   text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -103,7 +103,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-lg"></h1>
                 </div>
-                <div class="order-1 color shadow-xl bg-white rounded-xl z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div class="order-1 color shadow-xl bg-white rounded-full z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium z-20 text-primary-color text-opacity-100  "
                 dangerouslySetInnerHTML={{
@@ -122,7 +122,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto font-semibold text-lg text-white"></h1>
                 </div>
-                <div class="order-1 text-primary-color bg-white  z-20 rounded-xl shadow-xl md:w-5/12 px-6 py-4">
+                <div class="order-1 text-primary-color bg-white  z-20 rounded-full shadow-xl md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium   text-primary-color text-opacity-100"
                 dangerouslySetInnerHTML={{
@@ -140,7 +140,7 @@ const Timeline = () => {
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-4 h-4 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-lg"></h1>
                 </div>
-                <div class="order-1 color shadow-xl bg-white rounded-xl z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div class="order-1 color shadow-xl bg-white rounded-full z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                 <div
                 className="text-sm font-medium z-20 text-primary-color text-opacity-100  "
                 dangerouslySetInnerHTML={{

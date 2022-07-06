@@ -10,7 +10,7 @@ const SectionZero = () => {
           node {
             imageBadge {
               alt
-              gatsbyImageData(height: 100)
+              gatsbyImageData(height: 120)
 
             }
             urlBadge
@@ -19,7 +19,7 @@ const SectionZero = () => {
       }
     }
   `)
-  return<>   <article className="flex flex-col md:flex-row gap-y-10 pt-10 pb-5  md:justify-center gap-x-20">
+  return<>   <article className="flex flex-col md:flex-row gap-y-10 pt-10 pb-5 items-center  md:justify-center md:gap-x-20">
 
 {   
     

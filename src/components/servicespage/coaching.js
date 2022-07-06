@@ -62,7 +62,7 @@ const Coaching = () => {
               }}
             />
             <Link to="../coaching">
-            <button className="p-2  rounded-xl text-white font-black bg-secondary-color hover:bg-fourth-color rounded-xl">
+            <button className="p-2  rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
               En savoir plus              
               </button>
     

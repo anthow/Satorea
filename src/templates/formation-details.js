@@ -185,7 +185,7 @@ const Formationdetail = ({ data }) => {
         <section className="justify-self-center text-center">
           <h2 className=" mb-10 text-2xl gr font-black">Tu y participes ?</h2>
           <Link to="/">
-            <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-xl">
+            <button className="py-4 px-6 text-white font-black bg-secondary-color rounded-full">
               En savoir plus
             </button>
           </Link>

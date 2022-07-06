@@ -76,8 +76,10 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignage,
                 }}
               />
-              <div className="text-xs flex italic">
-                <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} target="_blank" rel="noreferrer"> {data.datoCmsHomepage.nomTemoignage}</a><p>{data.datoCmsHomepage.professionTemoignageUn} </p>
+              <div className="text-xs flex ">
+                 <p> {data.datoCmsHomepage.nomTemoignage} </p>
+                 <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} 
+                target="_blank" rel="noreferrer">{data.datoCmsHomepage.professionTemoignageUn} </a>
               </div>
             </div>
           </div>
@@ -99,9 +101,10 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignageDeux,
                 }}
               />
-              <div className="text-xs flex italic">
-              <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
-              target="_blank" rel="noreferrer"> {data.datoCmsHomepage.nomTemoignageDeux}</a><p>{data.datoCmsHomepage.professionTemoignageDeux} </p>
+              <div className="text-xs flex ">
+               <p> {data.datoCmsHomepage.nomTemoignageDeux}</p>
+               <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
+              target="_blank" rel="noreferrer">{data.datoCmsHomepage.professionTemoignageDeux} </a>
               </div>
             </div>
           </div>
@@ -123,9 +126,11 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignageTrois,
                 }}
               />
-                <div className="text-xs flex italic">
+                <div className="text-xs flex ">
+              <p>
+              {data.datoCmsHomepage.nomTemoignageTrois}</p>
               <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageTrois} 
-              target="_blank" rel="noreferrer" > {data.datoCmsHomepage.nomTemoignageTrois}</a><p>{data.datoCmsHomepage.professionTemoignageTrois} </p>
+              target="_blank" rel="noreferrer" >{data.datoCmsHomepage.professionTemoignageTrois} </a>
               </div>
             </div>
           </div>
