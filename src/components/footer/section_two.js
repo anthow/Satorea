@@ -20,35 +20,39 @@ const Sectiontwo = () => {
       <section className="">
         <ul className="flex gap-x-10 text-xl ">
           <li>
-            {" "}
-            <FontAwesomeIcon
-              className="text-white hover:text-secondary-color text-lg"
-              icon={faEnvelope}
-              size="1x"
-            />
+            <a href="https://www.facebook.com/satorearea" target="_blank">
+              {" "}
+              <FontAwesomeIcon
+                className="text-white hover:text-secondary-color text-lg"
+                icon={faFacebook}
+                size="1x"
+              />
+            </a>
           </li>
+
           <li>
-            <FontAwesomeIcon
-              className="text-white hover:text-secondary-color text-lg"
-              icon={faFacebook}
-              size="1x"
-            />
+            <a href="https://www.instagram.com/satorearea/" target="_blank">
+              {" "}
+              <FontAwesomeIcon
+                className="text-white hover:text-secondary-color text-lg"
+                icon={faInstagram}
+                size="1x"
+              />
+            </a>
           </li>
+
           <li>
-            {" "}
-            <FontAwesomeIcon
-              className="text-white hover:text-secondary-color text-lg"
-              icon={faInstagram}
-              size="1x"
-            />
-          </li>
-          <li>
-            {" "}
-            <FontAwesomeIcon
-              className="text-white hover:text-secondary-color text-lg"
-              icon={faLinkedin}
-              size="1x"
-            />
+            <a
+              href="https://www.linkedin.com/in/david-hainaut-003334107/"
+              target="_blank"
+            >
+              {" "}
+              <FontAwesomeIcon
+                className="text-white hover:text-secondary-color text-lg"
+                icon={faLinkedin}
+                size="1x"
+              />
+            </a>
           </li>
         </ul>
       </section>
