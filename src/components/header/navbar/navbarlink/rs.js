@@ -12,7 +12,7 @@ import {
 
 export default function Rs() {
   return (
-    <ul className="grid grid-cols-4 m-auto gap-2 ">
+    <ul className=" flex justify-center md:grid grid-cols-4 m-auto gap-2 ">
 
       <li>
         <a href="https://www.facebook.com/satorearea" target="_blank">
