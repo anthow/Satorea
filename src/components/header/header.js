@@ -6,7 +6,7 @@ import Navbar from "./navbar/navbar";
 const Header = () => {
 
   return (
-    <header className="w-full py-2 stiky top-0 z-50 bg-white     m-auto">
+    <header className="w-full py-2 sticky top-0 z-50 bg-white     m-auto">
 <Navbar />
     </header>
 
