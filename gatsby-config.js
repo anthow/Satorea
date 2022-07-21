@@ -11,6 +11,13 @@ module.exports = {
     "gatsby-plugin-postcss",
     `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-mailgo`,
+
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'fr'
+      }
+    },
         {
       resolve: "gatsby-plugin-manifest",
       options: {
