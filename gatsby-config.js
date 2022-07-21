@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
     `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-mailgo`,
         {
       resolve: "gatsby-plugin-manifest",
       options: {
