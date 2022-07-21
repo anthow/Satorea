@@ -31,7 +31,7 @@ const Feedservice = () => {
 
       <div className="order-2 md:order-1">
         <h3 className="text-2xl font-black  mb-2 md:mb-5">{node.nomDuService}</h3>
-        <h4 className="italic text-xl mb-10">{node.sousTireDuService}</h4>
+        <h4 className=" text-xl mb-10">{node.sousTireDuService}</h4>
         <div
     className="mb-10 md:w-10/12"
           dangerouslySetInnerHTML={{
