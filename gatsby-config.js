@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Satorea`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://satorea.com/`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -13,6 +13,9 @@ module.exports = {
     `gatsby-plugin-mailgo`,
     `gatsby-plugin-minify`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
+    
 
     {
       resolve: 'gatsby-plugin-html-attributes',
