@@ -11,6 +11,8 @@ module.exports = {
     "gatsby-plugin-postcss",
     `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-mailgo`,
+    `gatsby-plugin-minify`,
+    `gatsby-plugin-netlify`,
 
     {
       resolve: 'gatsby-plugin-html-attributes',
