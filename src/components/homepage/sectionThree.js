@@ -46,7 +46,7 @@ const SectionThree = () => {
       </figure>
       <div>
         <h3 className="text-2xl font-black mb-2 md:mb-5">{data.datoCmsHomepage.coachingTitre}</h3>
-        <h4 className="italic text-xl mb-10">{data.datoCmsHomepage.coachingSousTitre}</h4>
+        <h4 className=" text-xl mb-10">{data.datoCmsHomepage.coachingSousTitre}</h4>
         <div
     className="mb-10 md:w-10/12"
           dangerouslySetInnerHTML={{
@@ -64,7 +64,7 @@ const SectionThree = () => {
     <div className="flex flex-col items-center gap-x-20  md:grid grid-cols-2 gap-x-4">
       <div className="order-2 md:order-1">
         <h3 className="text-2xl font-black  mb-2 md:mb-5">{data.datoCmsHomepage.titreFormationCollective}</h3>
-        <h4 className="italic text-xl mb-10">{data.datoCmsHomepage.sousTitreFormationCollective}</h4>
+        <h4 className=" text-xl mb-10">{data.datoCmsHomepage.sousTitreFormationCollective}</h4>
         <div
     className="mb-10 md:w-10/12"
           dangerouslySetInnerHTML={{
