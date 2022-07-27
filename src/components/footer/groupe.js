@@ -42,8 +42,8 @@ const Groupe = () => {
               le long terme pour gagner du temps.{" "}
             </p>
             <div className=" flex gap-x-4">
-            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-xl text-white p-2"> En savoir plus</button>
-            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-xl text-white p-2"> Voir les autres formations</button>
+            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-full text-white p-2"> En savoir plus</button>
+            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-full text-white p-2"> Voir les autres formations</button>
 
             </div>
           </div>

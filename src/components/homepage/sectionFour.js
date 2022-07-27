@@ -71,7 +71,7 @@ const SectionFour = () => {
                 {data.datoCmsHomepage.titreTemoignageUn}
               </h4>
               <div
-                className="mb-5"
+                className="mb-2 indent-1 flex flex-col gap-y-2"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsHomepage.texteTemoignage,
                 }}
@@ -96,7 +96,7 @@ const SectionFour = () => {
                 {data.datoCmsHomepage.titreTemoignageDeux}
               </h4>
               <div
-                className="mb-2"
+                className="mb-2 indent-1"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsHomepage.texteTemoignageDeux,
                 }}
@@ -121,7 +121,7 @@ const SectionFour = () => {
                 {data.datoCmsHomepage.titreTemoignageTrois}
               </h4>
               <div
-                className="mb-2"
+                className="mb-2 indent-1"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsHomepage.texteTemoignageTrois,
                 }}
