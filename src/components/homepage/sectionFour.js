@@ -77,9 +77,9 @@ const SectionFour = () => {
                 }}
               />
               <div className="text-xs flex ">
-                 <p> {data.datoCmsHomepage.nomTemoignage} </p>
+                 <p className="mr-1"> {data.datoCmsHomepage.nomTemoignage} </p>
                  <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} 
-                target="_blank" rel="noreferrer">{data.datoCmsHomepage.professionTemoignageUn} </a>
+                target="_blank" rel="noreferrer"> {data.datoCmsHomepage.professionTemoignageUn} </a>
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ const SectionFour = () => {
                 }}
               />
               <div className="text-xs flex ">
-               <p> {data.datoCmsHomepage.nomTemoignageDeux}</p>
+              <p className="mr-1"> {data.datoCmsHomepage.nomTemoignageDeux}</p>
                <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
               target="_blank" rel="noreferrer">{data.datoCmsHomepage.professionTemoignageDeux} </a>
               </div>
@@ -127,7 +127,7 @@ const SectionFour = () => {
                 }}
               />
                 <div className="text-xs flex ">
-              <p>
+              <p className="mr-1">
               {data.datoCmsHomepage.nomTemoignageTrois}</p>
               <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageTrois} 
               target="_blank" rel="noreferrer" >{data.datoCmsHomepage.professionTemoignageTrois} </a>
