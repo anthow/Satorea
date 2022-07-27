@@ -111,8 +111,8 @@ const SectionFour = () => {
           <div className="flex  gap-x-10 mb-20">
             <figure className=" ">
               <GatsbyImage
-                image={data.datoCmsHomepage.portraitDeux.gatsbyImageData}
-                alt={data.datoCmsHomepage.portraitDeux.alt}
+                image={data.datoCmsHomepage.portraitTrois.gatsbyImageData}
+                alt={data.datoCmsHomepage.portraitTrois.alt}
                 className="mb-5 rounded-full"
               />
             </figure>
