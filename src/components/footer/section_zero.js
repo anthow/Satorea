@@ -1,5 +1,5 @@
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import React from "react"
+import { GatsbyImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby"
 
 const SectionZero = () => {
@@ -25,8 +25,10 @@ const SectionZero = () => {
     
     data.allDatoCmsFooterBadge.edges.map(({ node }) => {
 return(
+  <a href={node.urlBadge} target="_blank">
   <GatsbyImage image={node.imageBadge.gatsbyImageData} alt={node.imageBadge.alt}       className="mb-5 w-max"
   ></GatsbyImage>
+  </a>
 )})}
 
 </article>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -6,17 +7,25 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 const Sectiontwo = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      datoCmsFooter {
+        titreDeuxiemeSection
+        texteDeuxiemeSection
+      }
+    }
+  `)
   return (
     <article className="flex flex-col gap-y-5">
-      <h4 className="text-xl text-white ">Alt title 4</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-
+      <h4 className="text-xl text-white ">{data.datoCmsFooter.titreDeuxiemeSection}</h4>
+  
+      <div
+        className=""
+        dangerouslySetInnerHTML={{
+          __html: data.datoCmsFooter.texteDeuxiemeSection,
+        }}
+      />
       <section className="">
         <ul className="flex gap-x-10 text-xl ">
           <li>
@@ -61,3 +70,4 @@ const Sectiontwo = () => {
 };
 
 export default Sectiontwo;
+

@@ -87,7 +87,7 @@ const Formationdetail = ({ data }) => {
           }}
         />
         <article className="py-10 flex flex-col  gap-y-20 m-auto  ">
-          <section>
+          <section className="flex flex-col gap-y-5">
             <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePrograme}</h3>
             <div
               className=""
@@ -158,7 +158,7 @@ const Formationdetail = ({ data }) => {
       </article>
       <article className="py-10 mb-10 w-10/12 m-auto gap-y-10 flex flex-col">
         <h3 className="text-2xl font-black"> {data.datoCmsFormationCollective.titreOutils}</h3>
-        <section className="w-10/12 m-auto flex gap-x-4">
+        <section className="w-full   m-auto justify-between flex gap-x-4">
         {data.datoCmsFormationCollective.imagesOutils.map(pic => 
 <figure className="md:w-12/12 w-1/2 m-auto mb-8 md:m-0 self-center ">
 <a href={pic.customData.url} target="_blank" rel="noreferrer">
@@ -183,10 +183,10 @@ const Formationdetail = ({ data }) => {
           />
         </section>
         <section className="justify-self-center text-center">
-          <h2 className=" mb-10 text-2xl gr font-black">Tu y participes ?</h2>
+          <h2 className=" mb-10 text-4xl gr font-black">{data.datoCmsFormationCollective.titreBouton}</h2>
           <Link to="/">
             <button className="py-4 px-6 text-white font-black bg-secondary-color w-max hover:bg-fourth-color text-white p-2 rounded-full">
-              En savoir plus
+              {data.datoCmsFormationCollective.texteBouton}
             </button>
           </Link>
         </section>
@@ -219,6 +219,7 @@ export const query = graphql`
       textePartieDeux
       textePartieTrois
       textePartieUn
+      texteBouton
       titreConclusion
       titreFormation
       titreInformationGenerale
@@ -228,6 +229,7 @@ export const query = graphql`
       titrePartieTrois
       titrePartieUn
       titrePrograme
+      titreBouton
       imageFormation {
         alt
         gatsbyImageData(height: 800, width: 3000)
