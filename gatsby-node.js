@@ -9,8 +9,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(
     `
      query MyQuery {
-        allDatoCmsFormationCollective {
-            edges {
+      allDatoCmsFormationCollective(filter: {horsLigneEnLigne: {eq: true}}) {
+        edges {
               node{slug}
             }
           }    

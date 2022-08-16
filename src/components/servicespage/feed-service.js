@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 const Feedservice = () => {
   const data = useStaticQuery(graphql`
     {
-      allDatoCmsAutresService {
+      allDatoCmsAutresService(filter: {horsLigneEnLigne: {eq: true}}) {
         edges {
           node {
             nomDuService

@@ -9,7 +9,7 @@ const Feedformation = () => (
   <StaticQuery
     query={graphql`
       {
-        allDatoCmsFormationCollective {
+        allDatoCmsFormationCollective(filter: {horsLigneEnLigne: {eq: true}}) {
         edges {
           node {
             imageFormation {
