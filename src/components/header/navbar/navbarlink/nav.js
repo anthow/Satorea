@@ -31,9 +31,8 @@ export default function Nav() {
             </ul>
           </div>
         </li>
-        <li> <a target="_blank" rel="noopener noreferrer" href="mailto:info@satorea.be"> 
-        <button classname="p-2  rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
-        Contact </button> </a></li>
+        <li> <a target="_blank" rel="noopener noreferrer" href="mailto:david@satorea.com"> 
+        Contact </a></li>
 
       </ul>
     </header>

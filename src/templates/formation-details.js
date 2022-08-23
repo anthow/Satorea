@@ -2,8 +2,6 @@ import * as React from "react";
 import Layout from "../components/layout";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { graphql } from "gatsby";
 import Individuel from "../components/footer/individuel";
 
@@ -183,9 +181,9 @@ const Formationdetail = ({ data }) => {
           />
         </section>
         <section className="justify-self-center text-center">
-          <h2 className=" mb-10 text-4xl gr font-black">{data.datoCmsFormationCollective.titreBouton}</h2>
+          <h2 className=" mb-10 mt-10 md:mt-0 text-4xl gr font-black">{data.datoCmsFormationCollective.titreBouton}</h2>
           <Link to="/">
-            <button className="py-4 px-6 text-white font-black bg-secondary-color w-max hover:bg-fourth-color text-white p-2 rounded-full">
+        <button className="p-2 px-5 text-lg rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
               {data.datoCmsFormationCollective.texteBouton}
             </button>
           </Link>

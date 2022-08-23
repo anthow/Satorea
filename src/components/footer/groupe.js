@@ -35,11 +35,7 @@ const Groupe = () => {
           <div className="flex flex-col gap-y-5">
             <h3 className="text-3xl font-black">{data.datoCmsFormationCollective.sousTitreFormation}</h3>
             <h4 className="text-xl font-thin">{data.datoCmsFormationCollective.titreFormation}</h4>
-            <p>
-              Tu souhaites accroître la visibilité de tes pages sur Facebook ou
-              sur Instagram ? Dans cette formation, développe une stratégie sur
-              le long terme pour gagner du temps.{" "}
-            </p>
+        
             <div
         className=""
         dangerouslySetInnerHTML={{
@@ -47,8 +43,10 @@ const Groupe = () => {
         }}
       />
             <div className=" flex gap-x-4">
-            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-full text-white p-2"> En savoir plus</button>
-            <button  className=" bg-secondary-color w-max hover:bg-fourth-color rounded-full text-white p-2"> Voir les autres formations</button>
+                    <button className="p-2 px-5  rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
+En savoir plus</button>
+                    <button className="p-2 px-5 rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
+Voir les autres formations</button>
 
             </div>
           </div>

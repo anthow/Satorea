@@ -71,7 +71,7 @@ const Appel = () => {
               }}
             />
             <a href="mailto:info@satorea.be">
-              <button className="p-2  rounded-full text-white w-max font-black bg-secondary-color hover:bg-fourth-color ">
+        <button className="p-2 px-5 text-lg rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
                 {data.datoCmsPageAccompagnementIndividuel.texteBouton}{" "}
               </button>
             </a>

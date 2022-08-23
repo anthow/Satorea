@@ -21,7 +21,7 @@ const Sectionone = () => {
         <input type="text" className="border rounded-l-full p-2" />
         <input
           type="submit"
-          className=" bg-secondary-color hover:bg-fourth-color rounded-r-full text-white p-2"
+          className=" bg-secondary-color pr-4 font-black hover:bg-fourth-color rounded-r-full text-white p-2"
         />
       </form>
     </article>
