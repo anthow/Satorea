@@ -10,14 +10,9 @@ const Individuel = () => {
     query {
       datoCmsFooter {
       titreIntroduction
-      titreParagraphe
-      texteParagraphe
       texteIntroduction
-      sousTitreParagraphe
       texteBouton
-      imageCoaching {
-        gatsbyImageData
-      }
+      
     }
     datoCmsPageAccompagnementIndividuel {
       imageSousSectionBoutonDAppel {
