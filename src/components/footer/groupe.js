@@ -19,9 +19,9 @@ const Groupe = () => {
   `);
   return (
     <>
-      <article className="  py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
+      <article className=" mb-10 py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
         <section>
-        <h2 className=" text-2xl  mb-10 font-black ">
+        <h2 className=" text-2xl  mb-10 font-semibold ">
           Tu préfère travailler en groupe ?
         </h2>
         <p>

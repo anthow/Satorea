@@ -29,8 +29,8 @@ const Header = () => {
             alt={data.datoCmsPageFormationCollective.imageHeader.alt}
           />
         </figure>
-        <div className="w-10/12 m-auto "> 
-        <section className=" pt-10 flex flex-col mb-10 ">
+        <div className="w-10/12 m-auto  "> 
+        <section className=" pt-10 flex flex-col mb-10 gap-y-10 ">
           <h2 className=" text-2xl font-black">
             {data.datoCmsPageFormationCollective.sousTitreHeader}
           </h2>

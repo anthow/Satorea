@@ -42,8 +42,8 @@ const Header = () => {
               />
               </div>
       </article>
-      <article className=" w-10/12   py-10 md:py-0 flex flex-col m-auto   ">
-        <h2 className=" text-2xl font-black mb-10">{data.datoCmsPageAccompagnementIndividuel.titreAccompagnement}</h2>
+      <article className=" w-10/12  mt-10 py-10 md:py-0 flex flex-col m-auto   ">
+        <h2 className=" text-2xl font-semibold mb-10">{data.datoCmsPageAccompagnementIndividuel.titreAccompagnement}</h2>
         <div
                 className=""
                 dangerouslySetInnerHTML={{

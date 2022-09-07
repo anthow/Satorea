@@ -28,9 +28,9 @@ const Individuel = () => {
     }
   }
   `)
-  return <article className="  py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
+  return <article className=" mt-10  py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
   <section>
-  <h2 className=" text-2xl mb-10  font-black ">
+  <h2 className=" text-2xl mb-10  font-semibold ">
   {data.datoCmsFooter.titreIntroduction}       </h2>
 
   <div

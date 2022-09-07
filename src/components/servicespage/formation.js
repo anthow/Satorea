@@ -27,8 +27,8 @@ const Formation = () => {
 
   `);
   return (<>
-  <article className="  py-10  flex flex-col m-auto w-10/12 ">
- <h3 className="text-2xl font-black mb-5">{data.datoCmsPageService.titreFormationPartieUn}</h3>
+  <article className="  pt-10  flex flex-col m-auto w-10/12 ">
+ <h3 className="text-2xl font-semibold mb-5">{data.datoCmsPageService.titreFormationPartieUn}</h3>
 
  <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
  <figure className=" order-1 md:order-2 ">
@@ -47,14 +47,14 @@ const Formation = () => {
           </div>
           </section>
 
-          <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
+          <section className="flex flex-col  items-center md:grid grid-cols-2 gap-x-20">
  <figure className=" order-1 ">
         
             <GatsbyImage image={data.datoCmsPageService.imageFormationPartieDeux.gatsbyImageData}
             alt={data.datoCmsPageService.imageFormationPartieDeux.alt} />
           </figure>
           <div className="flex flex-col order-2 ">
-          <h2 className="text-2xl font-black mb-5">{data.datoCmsPageService.titreFormationPartieDeux}</h2>
+          <h4 className="text-2xl font-regular mb-5">{data.datoCmsPageService.titreFormationPartieDeux}</h4>
           <div
               className="mb-10 md:w-10/12"
               dangerouslySetInnerHTML={{
@@ -62,10 +62,10 @@ const Formation = () => {
               }}
             />
             <Link to="../formations">
-          <button className="p-2 px-5 text-lg rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
+          <button className="p-2 px-5 text-lg rounded-full 
+          text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
               En savoir plus              
               </button>
-    
             </Link>
           </div>
           </section>

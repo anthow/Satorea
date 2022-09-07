@@ -23,7 +23,7 @@ const Appel = () => {
     <>
       <article className="  py-10 flex flex-col m-auto b w-12/12  ">
         <section className="w-10/12 flex flex-col gap-y-10 m-auto mb-5">
-          <h2 className="text-2xl ">
+          <h2 className="text-2xl font-semibold">
             {data.datoCmsPageAccompagnementIndividuel.titreSectionBoutonAppel}
           </h2>
           <div
@@ -55,13 +55,13 @@ const Appel = () => {
                   .titreSousSectionBoutonDAppel
               }{" "}
             </h3>
-            <h3 className=" text-lg  ">
+            <h4 className=" text-lg font-regular ">
               {" "}
               {
                 data.datoCmsPageAccompagnementIndividuel
                   .sousTitreSectionBoutonDAppel
               }{" "}
-            </h3>
+            </h4>
             <div
               className=""
               dangerouslySetInnerHTML={{

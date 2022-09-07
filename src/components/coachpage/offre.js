@@ -34,8 +34,8 @@ const Offre = () => {
   `);
   return (
     <>
-      <article className=" w-10/12   py-10 flex flex-col  m-auto b   ">
-        <h2 className=" text-2xl mb-10  font-black ">
+      <article className=" w-10/12 mt-10   py-10 flex flex-col  m-auto b   ">
+        <h2 className=" text-2xl mb-10  font-semibold ">
           {data.datoCmsPageAccompagnementIndividuel.titreIntroductionOffre}
         </h2>
       
@@ -58,10 +58,10 @@ const Offre = () => {
                 alt={data.datoCmsPageAccompagnementIndividuel.imageOffre1.alt}
               />
             </figure>
-            <h3 className="text-xl  ">
+            <h3 className="text-xl font-semibold ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre1}
             </h3>
-            <p className=" text-sm   font-black mb-5">
+            <p className=" text-sm   font-regular mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre1}
         </p>
             <div
@@ -82,10 +82,10 @@ const Offre = () => {
                 alt={data.datoCmsPageAccompagnementIndividuel.imageOffre2.alt}
               />
             </figure>
-            <h3 className="text-xl   ">
+            <h3 className="text-xl font-semibold  ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre2}
             </h3>
-            <p className=" text-sm   font-black mb-5">
+            <p className=" text-sm   font-regular mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre2}
         </p>
             <div
@@ -108,10 +108,10 @@ const Offre = () => {
                 }
               />
             </figure>
-            <h3 className="text-xl   ">
+            <h3 className="text-xl font-semibold   ">
               {data.datoCmsPageAccompagnementIndividuel.titreOffre3}
             </h3>
-            <p className=" text-sm   font-black mb-5">
+            <p className=" text-sm   font-regular mb-5">
           {data.datoCmsPageAccompagnementIndividuel.prixOffre3}
         </p>
             <div

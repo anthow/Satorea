@@ -28,7 +28,7 @@ const SectionTwo = () => {
   `)
   return <article className="w-12/12 py-10  flex">
   <section className="m-auto w-10/12">
-    <h2 className=" text-3xl font-black mb-10">{data.datoCmsHomepage.titreValeurs}</h2>
+    <h2 className=" text-3xl font-semibold mb-10">{data.datoCmsHomepage.titreValeurs}</h2>
     <p>
      { data.datoCmsHomepage.texteIntroductionValeurs}
     </p>
@@ -37,21 +37,21 @@ const SectionTwo = () => {
         <figure className="m-auto ">
         <GatsbyImage image={data.datoCmsHomepage.imageValeursUn.gatsbyImageData} alt={data.datoCmsHomepage.imageValeursUn.alt} />
         </figure>
-        <h3 className="text-center text-2xl font-black">{data.datoCmsHomepage.titreValeursUn}</h3>
+        <h3 className="text-center text-2xl font-semibold">{data.datoCmsHomepage.titreValeursUn}</h3>
       </div>
       <div className="flex flex-col gap-y-5 lg:gap-y-10 items-center">
         <figure className="m-auto ">
         <GatsbyImage image={data.datoCmsHomepage.imageValeursDeux.gatsbyImageData} alt={data.datoCmsHomepage.imageValeursDeux.alt} />
         
         </figure>
-        <h3 className="text-center text-2xl font-black">{data.datoCmsHomepage.titreValeursDeux}</h3>
+        <h3 className="text-center text-2xl font-semibold">{data.datoCmsHomepage.titreValeursDeux}</h3>
       </div>
       <div className="flex flex-col gap-y-5 lg:gap-y-10 items-center">
         <figure className="m-auto ">
         <GatsbyImage image={data.datoCmsHomepage.imageValeursTrois.gatsbyImageData} alt={data.datoCmsHomepage.imageValeursTrois.alt} />
 
         </figure>
-        <h3 className="text-center text-2xl font-black">{data.datoCmsHomepage.titreValeursTrois}</h3>
+        <h3 className="text-center text-2xl font-semibold">{data.datoCmsHomepage.titreValeursTrois}</h3>
       </div>
     </div>
   </section>
