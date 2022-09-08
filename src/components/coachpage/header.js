@@ -29,8 +29,8 @@ const Header = () => {
         </figure>
         <div className=" w-10/12  m-auto flex flex-col">
         <section className=" pt-10  flex flex-col mb-10 ">
-          <h2 className=" text-2xl font-black mb-10">{data.datoCmsPageAccompagnementIndividuel.titreDePage}</h2>
-          <h1 className="text-2xl">{data.datoCmsPageAccompagnementIndividuel.sousTitreHeader}</h1>
+          <h1 className=" text-4xl font-black mb-10">{data.datoCmsPageAccompagnementIndividuel.titreDePage}</h1>
+          <h2 className="text-2xl">{data.datoCmsPageAccompagnementIndividuel.sousTitreHeader}</h2>
         </section>
         <div
                 className=""

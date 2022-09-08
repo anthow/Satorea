@@ -21,7 +21,7 @@ const Groupe = () => {
     <>
       <article className=" mb-10 py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
         <section>
-        <h2 className=" text-2xl  mb-10 font-semibold ">
+        <h2 className=" text-2xl font-semibold mb-10 ">
           Tu préfère travailler en groupe ?
         </h2>
         <p>
@@ -33,7 +33,7 @@ const Groupe = () => {
         </section>
         <section className="flex flex-col md:grid grid-cols-2 gap-x-20">
           <div className="flex flex-col gap-y-5">
-            <h3 className="text-3xl font-black">{data.datoCmsFormationCollective.sousTitreFormation}</h3>
+            <h3 className="text-2xl font-semibold">{data.datoCmsFormationCollective.sousTitreFormation}</h3>
             <h4 className="text-xl font-thin">{data.datoCmsFormationCollective.titreFormation}</h4>
         
             <div

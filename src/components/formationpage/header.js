@@ -31,7 +31,7 @@ const Header = () => {
         </figure>
         <div className="w-10/12 m-auto  "> 
         <section className=" pt-10 flex flex-col mb-10 gap-y-10 ">
-          <h2 className=" text-2xl font-black">
+          <h2 className=" text-4xl font-black">
             {data.datoCmsPageFormationCollective.sousTitreHeader}
           </h2>
           <h1 className="text-2xl">

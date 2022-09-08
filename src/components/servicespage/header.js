@@ -29,7 +29,12 @@ const Header = () => {
      alt= {data.datoCmsPageService.imageHeader.alt} />
    </figure>
      <div className=" md:mt-20 md:pr-20">
-     <h2 className="text-4xl font-black mb-2 md:mb-5">{data.datoCmsPageService.titreHeader}</h2>
+     <div
+              className="text-4xl font-black mb-2 md:mb-5"
+              dangerouslySetInnerHTML={{
+                __html: data.datoCmsPageService.titreHeader,
+              }}
+            />
      <h1 className="text-2xl mb-5 md:mb-10"> {data.datoCmsPageService.sousTitreHeader}</h1>
      <div
               className=""
