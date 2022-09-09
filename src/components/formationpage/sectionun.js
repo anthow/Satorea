@@ -14,7 +14,7 @@ const Sectionun = () => {
   return (
     <>
       <article className="  py-10 flex flex-col m-auto b w-10/12  ">
-    <h2 className="text-2xl mb-10 font-semibold ">{data.datoCmsPageFormationCollective.titreSectionUn}</h2>
+    <h2 id="feed" className="text-2xl mb-10 font-semibold ">{data.datoCmsPageFormationCollective.titreSectionUn}</h2>
     <div
           className=""
           dangerouslySetInnerHTML={{

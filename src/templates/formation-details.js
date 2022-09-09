@@ -94,58 +94,62 @@ const Formationdetail = ({ data }) => {
               }}
             />
           </section>
-          <section className="   flex flex-col md:grid grid-cols-3  m-auto gap-x-20 w-10/12   ">
-            <div className="flex flex-col gap-y-5">
+          <section className="my-20 flex flex-col gap-y-10 md:grid grid-cols-3 gap-x-10 w-12/12 m-auto">
+            <div className="flex flex-col items-center gap-y-5  ">
+            <figure className="m-auto ">
               <GatsbyImage
                 image={
                   data.datoCmsFormationCollective.imagePartieUn.gatsbyImageData
                 }
                 alt={data.datoCmsFormationCollective.imagePartieUn.alt}
-              />
-              <div className="flex flex-col gap-y-5">
-                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieUn}</h3>
+              /> </figure>
+              <div className="flex flex-col gap-y-5   items-center">
+                <h3 className="text-center text-2xl font-semibold">{data.datoCmsFormationCollective.titrePartieUn}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieUn}</h4>
               </div>
               <div
-                className=""
+                className="text-center"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsFormationCollective.textePartieUn,
                 }}
               />
             </div>
-            <div className="flex flex-col gap-y-5">
+            <div className="flex flex-col gap-y-5   items-center">
+            <figure className="m-auto ">
               <GatsbyImage
                 image={
                   data.datoCmsFormationCollective.imagePartieDeux
                     .gatsbyImageData
                 }
                 alt={data.datoCmsFormationCollective.imagePartieDeux.alt}
-              />
-              <div className="flex flex-col gap-y-5">
-                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieDeux}</h3>
+              /> </figure>
+              <div className="flex flex-col gap-y-5   items-center">
+                <h3 className="text-center text-2xl font-semibold">{data.datoCmsFormationCollective.titrePartieDeux}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieDeux}</h4>
               </div>
               <div
-                className=""
+                className="text-center"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsFormationCollective.textePartieDeux,
                 }}
               />
             </div>
-            <div className="flex flex-col gap-y-5">
+            <div className="flex flex-col gap-y-5   items-center">
+            <figure className="m-auto ">
+
               <GatsbyImage
                 image={
                   data.datoCmsFormationCollective.imagePartieTrois
                     .gatsbyImageData
                 }
                 alt={data.datoCmsFormationCollective.imagePartieTrois.alt}
-              />
-              <div className="flex flex-col gap-y-5">
-                <h3 className="text-2xl font-black">{data.datoCmsFormationCollective.titrePartieTrois}</h3>
+              /></figure>
+              <div className="flex flex-col gap-y-5   items-center">
+                <h3 className="text-center text-2xl font-semibold">{data.datoCmsFormationCollective.titrePartieTrois}</h3>
                 <h4>{data.datoCmsFormationCollective.sousTitrePartieTrois}</h4>
               </div>
               <div
-                className=""
+                className="text-center"
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsFormationCollective.textePartieTrois,
                 }}

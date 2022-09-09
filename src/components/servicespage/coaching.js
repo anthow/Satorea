@@ -30,7 +30,7 @@ const Coaching = () => {
     <article className="   mt-20 flex flex-col m-auto w-10/12 ">
 
       <div
-        className="text-2xl font-semibold mb-5"
+        className="text-2xl text-black font-semibold mb-5"
         dangerouslySetInnerHTML={{
           __html: data.datoCmsPageService.titreCoachingPartieUn,
         }}

@@ -27,7 +27,7 @@ const Feedformation = () => (
     `}
     render={data => 
 <>
-<article className=" gap-y-10 py-10 flex flex-col m-auto b w-10/12  ">
+<article  className=" gap-y-10 py-10 flex flex-col m-auto b w-10/12  ">
 {data.allDatoCmsFormationCollective.edges.map(({ node },i) => (
                 i % 2 ?
 <>

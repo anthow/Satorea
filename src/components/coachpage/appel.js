@@ -35,7 +35,8 @@ const Appel = () => {
             }}
           />
         </section>
-        <section className="flex flex-col w-10/12 m-auto md:grid grid-cols-2 md:pr-24 gap-y-10 gap-x-20">
+        <section className="flex flex-col mt-5 w-10/12 m-auto 
+        md:grid grid-cols-2 md:pr-24 gap-y-10 gap-x-20">
           <GatsbyImage
             className="mb-5"
             image={

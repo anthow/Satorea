@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const Groupe = () => {
   const data = useStaticQuery(graphql`
@@ -10,10 +10,17 @@ const Groupe = () => {
       titreFormation
       sousTitreFormation
       texteFormation
+      slug
       imageFormation {
         gatsbyImageData (width:900)
         alt
       }
+    }
+    datoCmsFooter {
+      texteBoutonFormations
+      texteFormations
+      titreBoutonFormations
+      titreFormations
     }
   }
   `);
@@ -22,13 +29,15 @@ const Groupe = () => {
       <article className=" mb-10 py-10 flex flex-col m-auto  gap-y-20 w-10/12  ">
         <section>
         <h2 className=" text-2xl font-semibold mb-10 ">
-          Tu préfère travailler en groupe ?
+          {data.datoCmsFooter.titreFormations}
         </h2>
-        <p>
-          En petit groupe, j’anime des ateliers pour comprendre et s’exercer.
-          Des formations professionnelles pour s’initier ou se perfectionner au
-          marketing digital.
-        </p>
+      
+        <div
+        className="  "
+        dangerouslySetInnerHTML={{
+          __html: data.datoCmsFooter.texteFormations,
+        }}
+      />
         
         </section>
         <section className="flex flex-col md:grid grid-cols-2 gap-x-20">
@@ -43,10 +52,16 @@ const Groupe = () => {
         }}
       />
             <div className=" flex gap-x-4">
+            <Link to={"../formations/" + data.datoCmsFormationCollective.slug}>
+
+
                     <button className="p-2 px-5  rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
-En savoir plus</button>
+{data.datoCmsFooter.titreBoutonFormations}</button>
+</Link>
+<Link to="../formations/#feed">
                     <button className="p-2 px-5 rounded-full text-white font-black bg-secondary-color hover:bg-fourth-color rounded-full">
-Voir les autres formations</button>
+                    {data.datoCmsFooter.texteBoutonFormations}</button>
+</Link>
 
             </div>
           </div>

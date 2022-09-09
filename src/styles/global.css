@@ -54,7 +54,11 @@ div.timeline{
   .container:hover .overlay {
     opacity: 1;
   }
-  
+
+  p{
+    margin-bottom: 20px;
+  }
+
 ul li a {
     color:#FF9064;
     text-decoration: underline;
