@@ -60,6 +60,11 @@ ul li a {
     text-decoration: underline;
 
 }
+p a {
+    color:#FF9064;
+    text-decoration: underline;
+
+}
 
 nav ul li a {
     color:#8b8b8b;

@@ -21,12 +21,12 @@ const Formationdetail = ({ data }) => {
         <article className="  py-10 flex flex-col m-auto b w-10/12  ">
 
         <section className=" pt-10  mb-10 gap-x-10">
-          <h2 className=" text-2xl font-black">
+          <h1 className=" text-4xl font-black mb-10">
             {data.datoCmsFormationCollective.sousTitreFormation}
-          </h2>
-          <h1 className="text-2xl">
-            {data.datoCmsFormationCollective.titreFormation}
           </h1>
+          <h2 className="text-2xl">
+            {data.datoCmsFormationCollective.titreFormation}
+          </h2>
         </section>
         <div
           className=""
@@ -156,7 +156,7 @@ const Formationdetail = ({ data }) => {
       </article>
       <article className="py-10 mb-10 w-10/12 m-auto gap-y-10 flex flex-col">
         <h3 className="text-2xl font-semibold"> {data.datoCmsFormationCollective.titreOutils}</h3>
-        <section className="w-full   m-auto justify-between flex gap-x-4">
+        <section className="   m-auto justify-between flex gap-x-10">
         {data.datoCmsFormationCollective.imagesOutils.map(pic => 
 <figure className="md:w-12/12 w-1/2 m-auto mb-8 md:m-0 self-center ">
 <a href={pic.customData.url} target="_blank" rel="noreferrer">

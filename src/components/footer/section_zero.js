@@ -19,7 +19,7 @@ const SectionZero = () => {
       }
     }
   `)
-  return<>   <article className="flex flex-col md:flex-row gap-y-10  pb-5 items-center  md:justify-center md:gap-x-20">
+  return<>   <article className="mt-10 flex flex-col md:flex-row gap-y-10  pb-5 items-center  md:justify-center md:gap-x-20">
 
 {   
     
