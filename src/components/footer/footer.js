@@ -23,8 +23,13 @@ const Footer = () => {
 <Sectionthree />
 </section>
 <p className="w-10/12 m-auto">{data.datoCmsFooter.copyright}</p>
-<p className="w-10/12 text-sm m-auto">Site réalisé par <a href="https://liono.be/" 
-target="_blank" rel="noreferrer">Liono</a></p>
+<div
+        className="w-10/12 text-sm m-auto"
+        dangerouslySetInnerHTML={{
+          __html: data.datoCmsFooter.referenceDev,
+        }}
+      />
+
 
 </article>
 
