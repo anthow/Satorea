@@ -58,7 +58,7 @@ const SectionFour = () => {
       </article>
       <article className=" md:w-9/12 w-11/12  m-auto items-center justify-center">
         <div className="  flex flex-col lg:grid grid-cols-2 ">
-          <div className="flex  gap-x-10 mb-20">
+          <div className="flex gap-x-10 mb-20">
             <figure className=" ">
               <GatsbyImage
                 image={data.datoCmsHomepage.portrait.gatsbyImageData}
@@ -76,9 +76,9 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignage,
                 }}
               />
-              <div className="text-xs flex ">
-                 <p className="mr-1"> {data.datoCmsHomepage.nomTemoignage} </p>
-                 <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} 
+              <div className="text-xs gap-0 flex flex-col md:flex-row ">
+                 <p className="md:mr-1 "> {data.datoCmsHomepage.nomTemoignage} </p>
+                 <a className="-mt-4 md:mt-0 text-secondary-color" href={data.datoCmsHomepage.urlTemoignageUn} 
                 target="_blank" rel="noreferrer"> {data.datoCmsHomepage.professionTemoignageUn} </a>
               </div>
             </div>
@@ -100,10 +100,10 @@ const SectionFour = () => {
                 dangerouslySetInnerHTML={{
                   __html: data.datoCmsHomepage.texteTemoignageDeux,
                 }}
-              />
-              <div className="text-xs flex ">
+              /> 
+              <div className="text-xs flex flex-col md:flex-row">
               <p className="mr-1"> {data.datoCmsHomepage.nomTemoignageDeux}</p>
-               <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
+               <a className=" -mt-4 md:mt-0 md:mt-0 text-secondary-color" href={data.datoCmsHomepage.urlTemoignageDeux} 
               target="_blank" rel="noreferrer">{data.datoCmsHomepage.professionTemoignageDeux} </a>
               </div>
             </div>
@@ -126,10 +126,10 @@ const SectionFour = () => {
                   __html: data.datoCmsHomepage.texteTemoignageTrois,
                 }}
               />
-                <div className="text-xs flex ">
+                <div className="text-xs flex flex-col md:flex-row ">
               <p className="mr-1">
               {data.datoCmsHomepage.nomTemoignageTrois}</p>
-              <a className="text-secondary-color" href={data.datoCmsHomepage.urlTemoignageTrois} 
+              <a className="-mt-4 md:mt-0 text-secondary-color" href={data.datoCmsHomepage.urlTemoignageTrois} 
               target="_blank" rel="noreferrer" >{data.datoCmsHomepage.professionTemoignageTrois} </a>
               </div>
             </div>

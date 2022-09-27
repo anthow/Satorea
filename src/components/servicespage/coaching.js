@@ -27,15 +27,16 @@ const Coaching = () => {
 
   `);
   return (<>
-    <article className="   mt-20 flex flex-col m-auto w-10/12 ">
+    <article className=" lg:mt-20 flex flex-col m-auto w-10/12 ">
 
       <div
-        className="text-2xl text-black font-semibold mb-5"
+        className="text-2xl text-black font-semibold mb-10 lg:mb-5"
         dangerouslySetInnerHTML={{
           __html: data.datoCmsPageService.titreCoachingPartieUn,
         }}
       />
-      <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
+      <section className="flex flex-col mb-20 gap-y-10 
+      lg:gap-y-0 items-center md:grid grid-cols-2 gap-x-20">
         <figure className=" order-1 md:order-2   ">
 
           <GatsbyImage image={data.datoCmsPageService.imageCoachingPartieUn.gatsbyImageData}
@@ -44,7 +45,7 @@ const Coaching = () => {
         <div className="order-2 md:order-1 ">
 
           <div
-            className="mb-10 md:w-10/12"
+            className="lg:mb-10 md:w-10/12"
             dangerouslySetInnerHTML={{
               __html: data.datoCmsPageService.texteCoachingPartieUn,
             }}
@@ -56,7 +57,7 @@ const Coaching = () => {
         <figure className=" order-1 ">
 
           <GatsbyImage image={data.datoCmsPageService.imageCoachingPartieDeux.gatsbyImageData}
-            alt={data.datoCmsPageService.imageCoachingPartieDeux.alt} className="w-full h-full" />
+            alt={data.datoCmsPageService.imageCoachingPartieDeux.alt} className="w-full h-full mb-5"  />
         </figure>
         <div className="flex flex-col order-2 ">
           <h2 className="text-2xl font-regular mb-5">{data.datoCmsPageService.titreCoachingPartieDeux}</h2>

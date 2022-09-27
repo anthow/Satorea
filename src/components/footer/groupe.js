@@ -41,8 +41,8 @@ const Groupe = () => {
         
         </section>
         <section className="flex flex-col md:grid grid-cols-2 gap-x-20">
-          <div className="flex flex-col gap-y-5">
-            <h3 className="text-2xl font-semibold">{data.datoCmsFormationCollective.sousTitreFormation}</h3>
+          <div className="flex order-2 lg:order-1 flex-col gap-y-5">
+            <h3 className="text-2xl font-bold">{data.datoCmsFormationCollective.sousTitreFormation}</h3>
             <h4 className="text-xl font-thin">{data.datoCmsFormationCollective.titreFormation}</h4>
         
             <div
@@ -51,7 +51,7 @@ const Groupe = () => {
           __html: data.datoCmsFormationCollective.texteFormation,
         }}
       />
-            <div className=" flex gap-x-4">
+            <div className=" flex flex-col lg:flex-row items-center  gap-4">
             <Link to={"../formations/" + data.datoCmsFormationCollective.slug}>
 
 
@@ -68,7 +68,7 @@ const Groupe = () => {
           <figure>
 
           <GatsbyImage
-            className="mb-5"
+            className="mb-5 order-1 lg:order-2"
             image={
               data.datoCmsFormationCollective
                 .imageFormation.gatsbyImageData

@@ -20,7 +20,7 @@ const Header = () => {
 
   `);
   return (<>
-  <article className=" min-h-screen py-10 md:py-0 md:min-h-9/10 flex flex-col m-auto">
+  <article className=" lg:min-h-screen py-10 md:py-0 lg:min-h-9/10 flex flex-col m-auto">
    
    <section className=" m-auto flex flex-col gap-x-20 md:grid grid-cols-2">
    <figure className="m-auto ">
@@ -28,9 +28,9 @@ const Header = () => {
      <GatsbyImage image={data.datoCmsPageService.imageHeader.gatsbyImageData}
      alt= {data.datoCmsPageService.imageHeader.alt} />
    </figure>
-     <div className=" md:mt-20 md:pr-20">
+     <div className=" py-4 w-10/12 lg:w-12/12 m-auto lg:mt-20 lg:pr-20">
      <div
-              className="text-4xl font-black mb-2 md:mb-5"
+              className="text-3xl lg:text-4xl font-black mb-2 md:mb-5"
               dangerouslySetInnerHTML={{
                 __html: data.datoCmsPageService.titreHeader,
               }}

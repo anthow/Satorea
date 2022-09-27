@@ -28,9 +28,9 @@ const Formation = () => {
   `);
   return (<>
   <article className="  pt-10  flex flex-col m-auto w-10/12 ">
- <h3 className="text-2xl font-semibold mb-5">{data.datoCmsPageService.titreFormationPartieUn}</h3>
+ <h3 className="text-2xl font-semibold mb-10 lg:mb-5">{data.datoCmsPageService.titreFormationPartieUn}</h3>
 
- <section className="flex flex-col mb-20 items-center md:grid grid-cols-2 gap-x-20">
+ <section className="flex flex-col gap-y-10 lg:gap-y-0 mb-20 items-center md:grid grid-cols-2 gap-x-20">
  <figure className=" order-1 md:order-2 ">
          
             <GatsbyImage image={data.datoCmsPageService.imageFormationPartieUn.gatsbyImageData}
@@ -47,7 +47,7 @@ const Formation = () => {
           </div>
           </section>
 
-          <section className="flex flex-col  items-center md:grid grid-cols-2 gap-x-20">
+          <section className="flex flex-col gap-y-10 lg:gap-y-0  items-center md:grid grid-cols-2 gap-x-20">
  <figure className=" order-1 ">
         
             <GatsbyImage image={data.datoCmsPageService.imageFormationPartieDeux.gatsbyImageData}

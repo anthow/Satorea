@@ -13,7 +13,7 @@ const Header = () => {
     titreAccompagnement
     texteAccompagnement  
     imageHeader {
-        gatsbyImageData(height: 800, width: 3000)
+        gatsbyImageData(height: 600, width: 3000)
       alt
     }
   }
