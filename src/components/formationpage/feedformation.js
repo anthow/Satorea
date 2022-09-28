@@ -36,6 +36,7 @@ const Feedformation = () => (
 
       <GatsbyImage image={node.imageFormation.gatsbyImageData}
       alt={node.imageFormation.alt}
+      className="mb-10 lg:mb-0"
       />
     </figure>
     <div>
@@ -82,6 +83,8 @@ const Feedformation = () => (
   <figure className="m-auto order-1 md:order-2 ">
        <GatsbyImage image={node.imageFormation.gatsbyImageData}
       alt={node.imageFormation.alt}
+      className="mb-10 lg:mb-0"
+
 
       />
 
