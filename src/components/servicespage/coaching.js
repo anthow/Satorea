@@ -1,7 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const Coaching = () => {

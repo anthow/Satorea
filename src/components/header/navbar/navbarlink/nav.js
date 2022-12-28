@@ -31,7 +31,7 @@ export default function Nav() {
             </ul>
           </div>
         </li>
-        <li className="-mt-5 lg:mt-0"> <a target="_blank" rel="noopener noreferrer" href="mailto:david@satorea.com"> 
+        <li className="-mt-5 lg:mt-0"> <a target="_blank" rel="noreferrer" href="mailto:david@satorea.com"> 
         Contact </a></li>
 
       </ul>

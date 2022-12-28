@@ -1,8 +1,5 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
 import Feedservice from "./feedservices";

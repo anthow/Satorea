@@ -25,7 +25,7 @@ const SectionZero = () => {
     
     data.allDatoCmsFooterBadge.edges.map(({ node }) => {
 return(
-  <a href={node.urlBadge} target="_blank">
+  <a href={node.urlBadge} target="_blank" rel="noreferrer">
   <GatsbyImage image={node.imageBadge.gatsbyImageData} alt={node.imageBadge.alt}       className="mb-5 w-max"
   ></GatsbyImage>
   </a>
