@@ -4,9 +4,16 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import { graphql } from "gatsby";
 import Individuel from "../components/footer/individuel";
-
+import Seo from "../components/seo";
 const Formationdetail = ({ data }) => {
+  const titre  = data.datoCmsFormationCollective.titreFormation
+  const description = data.datoCmsFormationCollective.sousTitreFormation
+
+
   return (<>
+        <Seo title= "Satorea"
+description = {description}
+/>
     <Layout>
       <div className="pb-10 flex flex-col m-auto  w-12/12">
         <figure className=" w-full h-1/3 m-auto mb-5 ">
